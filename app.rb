@@ -1,9 +1,9 @@
 require './book'
 require './classroom'
-require './person_class'
+require './person'
 require './rental'
-require './student_class'
-require './teacher_class'
+require './student'
+require './teacher'
 
 class App
   def initialize
