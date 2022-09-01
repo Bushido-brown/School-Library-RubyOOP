@@ -1,7 +1,7 @@
-require './person_class'
+require './person'
 require './capitalize_decorator'
-require './trim_decorator'
-require './namable_class'
+require './trimmer_decorator'
+require './namable'
 person = Person.new(22, 'maximilianus')
 person.correct_name
 capitalized_person = CapitalizeDecorator.new(person)
